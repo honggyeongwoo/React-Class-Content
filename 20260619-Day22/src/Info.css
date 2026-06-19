@@ -1,0 +1,67 @@
+/*  Info.css */
+
+*{
+  box-sizing: border-box;
+}
+
+/*  Info.css */
+
+body {
+  padding: 60px;
+}
+
+.profile {
+  width: 300px;
+  height: 300px;
+  /* 테스트용 선을 그리기 */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  /* 가운데 정렬  */
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  position: relative;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.profile p {
+  color: grey;
+  font-size: 11px;
+}  
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.new-member-tag{
+
+  display: inline;
+  padding: 5px 10px;  
+
+  background-color: lightblue;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+
+  border-radius: 5px;
+
+  position: absolute;
+  top: 0;
+  right: 50px;
+
+}

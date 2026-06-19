@@ -1,0 +1,23 @@
+/*  */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  /* font size 설정 해둠 초기에 */
+  font-size: 16px;
+}
+
+
+
+
+
+
+.blog-post{
+  border: 2px solid #ccc;
+  border-radius: 30px;  
+  margin-bottom: 20px;
+}
