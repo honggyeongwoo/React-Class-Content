@@ -1,0 +1,39 @@
+/* index.css 모든 리액트 파일에 공통적으로 적용! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* 기본 폰트 설정 (rem 단위)
+    rem은 배수 단위로 커지거나 작아진다. 
+    기본 브라우저 폰트크기를 기준이다!
+   */
+  font-size: 16px;
+}
+ul {
+  /* 점 없애기 */
+  list-style: none;
+}
+/* 공통되는 반응형 핸드폰 740이하가 되면
+  기본적으로 글씨 크기가 작아진다. 거기에 맞춰서
+  rem단위를 쓴 아이들은 자동적으로 줄어든다. */
+@media (max-width: 740px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+.max-container {
+  height: 100vh;
+  width: 1000px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: beige;
+
+  border: 1px solid red;
+  border-radius: 30px;
+}
+
+.nav {
+  cursor: pointer;
+}
